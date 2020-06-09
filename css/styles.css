@@ -10,6 +10,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -833,6 +839,8 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
+
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1257,6 +1265,7 @@ pre code {
   }
 }
 @media (min-width: 992px) {
+
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -4069,6 +4078,11 @@ input[type=button].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+
+  .resume-section-content .mb-0 {
+    font-size: 34px;
+}
+
 }
 @media (min-width: 576px) {
   .navbar-expand-sm {
